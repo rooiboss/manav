@@ -23,7 +23,7 @@ public class manav {
         System.out.print("Domates kilo :");
         d= input.nextDouble();
 
-        Toplam = perArmut*a+perElma*e+perMuz*m+perDomates*d+perPatlican*p;
+        Toplam = (perArmut*a)+(perElma*e)+(perMuz*m)+(perDomates*d)+(perPatlican*p);
         System.out.print("Toplam Tutar : "+Toplam);
 
     }
